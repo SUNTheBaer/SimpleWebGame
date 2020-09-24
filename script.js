@@ -33,7 +33,7 @@ window.setInterval(function()
     console.log(blockLeft);
     if (blockLeft < randomPosition + 10 && blockLeft > randomPosition - 10)
     {
-        block.style.color = "green";
+        block.style.backgroundColor = "green";
         //block.style.animation = "blockUp";
     }
 },10);
